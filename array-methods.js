@@ -31,7 +31,7 @@ let modernCartoons = arr.filter(item=>item.yearReleased >= 2000);
 const example=[];
 for(let item of arr){
     if(item.yearReleased >= 2000){
-        example.push(item);
+        example.push(item)
     }
 }
 
